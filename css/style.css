@@ -2,17 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 
 /* Design */
-*,
-*::before,
-*::after {
+#card *,
+#card *::before,
+#card *::after {
   box-sizing: border-box;
 }
 
-html {
+#card {
   background-color: #ebebeb;
-}
-
-body {
   color: #272727;
   font-family: 'Kanit', sans-serif;
   font-style: normal;
@@ -21,19 +18,19 @@ body {
   padding: 1rem;
 }
 
-.main{
+#card .main{
   max-width: 1200px;
   margin: 0 auto;
 }
 
 
-img {
+#card img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
 }
 
-.btn {
+#card .btn {
   color: #000000;
   font-family: 'Kanit', sans-serif;
   padding: 0.8rem;
@@ -49,11 +46,11 @@ img {
 }
 
 /* button when pointer*/
-.btn:hover {
+#card .btn:hover {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
-.cards {
+#card .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -61,12 +58,12 @@ img {
   padding: 0;
 }
 
-.cards_item {
+#card .cards_item {
   display: flex;
   padding: 16px;
 }
 
-.card {
+#card .card {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -75,13 +72,13 @@ img {
   overflow: hidden;
 }
 /* content text (title & message)*/
-.card_content {
+#card .card_content {
   padding: 16px;
   background-color: rgb(255, 255, 255);
 }
 
 /* span date in content*/
-.card_content span{
+#card .card_content span{
   display: block;
   color:rgba(0, 0, 0, 0.5);
   font-size: 12px;
@@ -89,7 +86,7 @@ img {
 }
 
 /* title*/
-.card_title {
+#card .card_title {
   color: #000000;
   font-size: 22px;
   font-weight: 700;
@@ -99,7 +96,7 @@ img {
 }
 
 /* content text*/
-.card_text {
+#card .card_text {
   color: #000000;
   font-size: 14px;
   line-height: 1.5;
@@ -110,13 +107,13 @@ img {
 
 /* Responsive design 2 breakpoint */
 @media screen and (min-width: 640px) {
-  .cards_item {
+  #card .cards_item {
     width: 50%;
   }
 }
 
 @media  screen and (min-width: 896px) {
-  .cards_item {
+  #card .cards_item {
     width: 33.3333%;
   }
 }

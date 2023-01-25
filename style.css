@@ -3,43 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
 
 
-*{
+#hero * {
   box-sizing: border-box;
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
   color: aliceblue;
 }
 
-.hero{
+#hero .hero {
   background-image: url('./img/bg.jpg');
   width: 100%;
   height: 100%;
 }
 
-a{
+#hero a {
   display: inline-block;
   text-decoration: none;
 }
 
-h1,p{
+#hero h1,p{
   margin: 10;
 }
 
 /* nav */
 
-.pic {
+#hero .pic {
   width: 45px;
   height: 45px;
   object-fit: cover;
 }
 
-.row{
+#hero .row{
   display: flex;
   flex-direction: row;
   background-color: midnightblue;
 }
 
-header{
+#hero header{
   align-items: center;
   justify-content: space-between;
   gap: 1em;
@@ -47,17 +47,17 @@ header{
   background-color: midnightblue;
 }
 
-.navLogo h1{
+#hero .navLogo h1{
   font-weight: 400;
   background-color: midnightblue;
 }
 
-.nav {
+#hero .nav {
   overflow: hidden;
   background-color: midnightblue;
 }
 
-.nav a {
+#hero .nav a {
   float: left;
   color: #f2f2f2;
   text-align: center; 
@@ -66,23 +66,23 @@ header{
   font-size: 17px;
 }
 
-.nav a:hover {
+#hero .nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.nav-right {
+#hero .nav-right {
   padding-top: 15px;
   float: right;
 }
 
-.logoname {
+#hero .logoname {
   font-weight: 400;
   font-size: 30px !important;
 }
 
 /* hero */
-.hero-text {
+#hero .hero-text {
   padding-top: 30%;
   text-align: center;
   top: 50%;
@@ -91,7 +91,7 @@ header{
   margin-bottom: 5%;
 }
 
-.hero a{
+#hero .hero a{
   text-align: center;
   color: rgb(0, 0, 0);
   display: block;
@@ -99,7 +99,7 @@ header{
   margin: auto;
 }
 
-.join {
+#hero .join {
   background-color: #8ba1cb;
   color: white;
   padding: 10px 20px;
@@ -107,11 +107,11 @@ header{
   font-weight: 400 !important;
 }
 
-.join:hover {
+#hero .join:hover {
   background-color: #dfe0e7;
 }
 
-.basic {
+#hero .basic {
   background-color: transparent;
   color: white !important; 
   border: 3px solid #8ba1cb;
@@ -119,11 +119,11 @@ header{
   text-decoration: none;
 }
 
-.basic:hover {
+#hero .basic:hover {
   background-color: #dfe0e7;
 }
 
-.extra {
+#hero .extra {
   background-color: transparent;
   border: 3px solid #8ba1cb;
   color: white !important;
@@ -131,7 +131,7 @@ header{
   text-decoration: none;
 }
 
-.extra:hover {
+#hero .extra:hover {
   background-color: #dfe0e7;
 }
 
