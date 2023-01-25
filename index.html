@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>In-class Exercise preview</title>
+
+	<!-- Group 8 Navigation head tags-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet" />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link href="style/style.css" rel="stylesheet" />
+
+	<!-- Group 4 Hero head tags-->
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<!-- Group 2 Form head tags-->
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/style.js"></script>
+
+	<!-- Group 3 Cards head tags-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Group 8 Navigation body tags-->
+	<header id="navbar">
+		<div class="navbar">
+			<div class="nav_main">
+				<div class="logo">
+					<img src="style/TULogo.png" alt="TULOGO" width="300" />
+				</div>
+
+				<div class="text">
+					<a href="#">บัณฑิตศึกษา</a>
+					<a href="#">การรับสมัคร</a>
+					<a href="#">แบบคำร้อง/เอกสารบัณฑิต</a>
+					<a href="#">รายงานการประชุมกรรมการบัณฑิต</a>
+					<a href="#">ฐานข้อมูลวิทยานิพนธ์</a>
+				</div>
+
+				<div class="dropdown">
+					<a href="javascript:void(0);" class="navbar-toggle" onclick="myFunction()"><i class='fa fa-bars'
+							id="dropdown_ico"></i></a>
+				</div>
+			</div>
+			<div class="dropdown-content" id="dropd2">
+				<a href="#">การรับสมัคร</a>
+				<a href="#">แบบคำร้อง/เอกสารบัณฑิต</a>
+				<a href="#">รายงานการประชุมกรรมการบัณฑิต</a>
+				<a href="#">บัณฑิตศึกษา</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Group 4 Hero body tags-->
+	<section id="hero">
+		<div class="hero">
+			<div class="hero-text">
+				<h1>Guide for Master Web Application</h1>
+				<p>รับประกันคุณภาพเนื้อหา โดย ผศ.ดร. ภูมิพิช</p>
+			</div>
+
+			<div class="buttom">
+				<a href="#่join" class="join">ทดลองเรียน ฟรี!!!</a>
+				<br>
+				<a href="#basic" class="basic">Basic coures</a>
+				<br>
+				<a href="#ad" class="extra">Advace course</a>
+				<br>
+			</div>
+		</div>
+	</section>
+
+	<!-- Group 3 Cards body tags-->
+	<section id="card">
+		<div class="main">
+			<ul class="cards">
+				<!-- card 1 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/idol.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">TOP 100 ‘นักร้องเกาหลี’ ที่ถูกพูดถึงมากที่สุด ประจำเดือนมกราคม 2023
+							</h1>
+							<span>วันเสาร์ 21 มกราคม 2566</span>
+							<p class="card_text">การจัดอันดับข้อมูลจาก Big Data ของ The Korean Business Research
+								Institute ที่ดำเนินมาอย่างต่อเนื่องรวมถึงในปี 2023 นี้ และล่าสุดกับการจัดอันดับในหมวด
+								นักร้องเกาหลี ได้ถูกประกาศออกมาแล้วในวันที่ 21 มกราคม โดยการจัดอันดับหมวด นักร้องเกาหลี
+								ได้ตัดสินผ่านข้อมูลหลายส่วนด้วยกัน ทั้งการวิเคราะห์จากการรายงานของสื่อ,
+								การมีส่วนร่วมของผู้บริโภค, การมีปฏิกิริยาร่วม และดัชนีการรับรู้ของสังคม ...</p>
+							<a
+								href="https://www.hallyukstar.com/2023/01/21/top-100-korean-singers-ranking-january-2023/"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+				<!-- card 2 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/NCT.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">‘NCT DREAM’ เตรียมจัดคอนเสิร์ต ‘THE DREAM SHOW2’ ในไทย 10-12 มี.ค.นี้
+							</h1>
+							<span>วันเสาร์ 21 มกราคม 2566</span>
+							<p class="card_text">ในที่สุดการรอคอยกว่า 3 ปี 3 เดือนของ NCTzen DREAM ก็ใกล้จะสิ้นสุดลง!
+								เตรียมพบกับช่วงเวลาแสนสุข ผ่านโชว์อันน่าตื่นตาตื่นใจ และบทเพลงอันมีสีสันหลากหลายแนว
+								กับสเกลคอนเสิร์ตที่อัปเกรดให้ยิ่งใหญ่ขึ้นอย่างอิมแพ็ค อารีน่า ถึง 3 รอบการแสดง
+								พร้อมโปรดักชันสุดอลังการ
+								ซึ่งจะทำให้ทุกคนได้สัมผัสคอนเสิร์ตที่เป็นเหมือนกับความฝันเหนือจินตนาการ ...</p><br>
+							<a href="https://workpointtoday.com/the-dream-show2/"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+				<!-- card 3 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/aespa.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">aespa ประกาศจัดคอนเสิร์ตเดี่ยวครั้งแรก ‘2023 aespa 1st Concert ‘SYNK
+								: HYPER LINE’’ ที่กรุงโซล ในวันที่ 25-26 กุมภาพันธ์นี้!</h1>
+							<span>วันเสาร์ 21 มกราคม 2566</span>
+							<p class="card_text">‘2023 aespa 1st Concert ‘SYNK : HYPER LINE’’ จะจัดขึ้นเป็นเวลาสองวัน
+								ในวันที่ 25-26 กุมภาพันธ์ 2023 ณ Jamsil Arena กรุงโซล ประเทศเกาหลีใต้ โดยคาดว่า
+								คอนเสิร์ตแห่งจินตนาการที่ผสมผสานบทเพลงอันทรงพลังและการแสดงอันเป็นเอกลักษณ์ของ aespa
+								จะสะกดใจผู้ชมได้เป็นอย่างดี ...</p>
+							<a href="https://music.trueid.net/th-th/detail/EQqkxgYAmEY8"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+				<!-- card 4 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/yorch.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">Trainee A ยุบโปรเจกต์ ยอร์ช ยงศิลป์
+								โพสต์ไอจีสตอรี่ขอบคุณพร้อมเดินทางกลับไทย</h1>
+							<span>วันศุกร์ 20 มกราคม 2566</span>
+							<p class="card_text">หลังจากที่ ยอร์ช ยงศิลป์ วงศ์พนิตนนท์ ได้ไปร่วมเป็นเด็กฝึกให้กับ
+								Trainee A ของค่าย BIGHIT MUSIC ที่ประเทศเกาหลี สร้างความตื่นเต้นให้กับแฟนๆ K-POP ชาวไทย
+								อย่างมาก ซึ่งทุกคนต่างก็พร้อมสนับสนุน ยอร์ช กันเต็มที่
+								แต่ล่าสุดมีเรื่องสุดช็อกเกิดขึ้น เมื่อ ยอร์ช ได้โพสต์ไอจีสตอรี่เพื่อแจ้งข่าวกับแฟนๆ ว่า
+								โปรเจกต์ Trainee A ได้ยุติลงแล้ว พร้อมขอบคุณทุกคนสำหรับการสนับสนุน
+								และเดินทางกลับเมืองไทย ...</p><br>
+							<a href="https://www.thairath.co.th/entertain/news/2585786"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+				<!-- card 5 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/yoona.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">‘ยุนอา SNSD – อีจุนโฮ 2PM’ เผยภาพลักษณ์ใหม่ที่น่าหลงไหล ในซีรีส์ King
+								The Land ซีรีส์ใหม่จาก JTBC ที่น่าปักหมุด</h1>
+							<span>วันศุกร์ 20 มกราคม 2566</span>
+							<p class="card_text">ซีรีส์เรื่องใหม่ที่น่าติดตามในปี 2023 นี้ แน่นอนว่าจะต้องมีชื่อซีรีส์
+								King the Land อยู่ในลิสต์ของใครหลายคนอย่างแน่นอน เพราะโปรเจกต์ซีรีส์ใหม่เรื่องนี้
+								ได้รับความสนใจตั้งแต่มีการคอนเฟิร์มนักแสดงนำในซีรีส์แล้วว่าจะได้ 2 ไอดอลนักแสดงชื่อดัง
+								อีจุนโฮ 2PM และ อิมยุนอา SNSD มารับบทนำร่วมกัน ซึ่ง JTBC
+								ก็ไม่รอช้าที่จะปล่อยภาพเผยลุคใหม่ที่น่าหลงไหลของ 2 นักแสดงให้เราได้ชมกัน
+								ระหว่างนับถอยหลังรอวันออนแอร์ ...</p>
+							<a href="https://www.korseries.com/yoona-and-lee-junho-in-upcoming-drama-king-the-land/"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+				<!-- card 6 -->
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="img/Chiquita.png"></div>
+						<div class="card_content">
+							<h1 class="card_title">YG เปิดตัวสาวน้อยจากประเทศไทยวัย 13 ปี ‘Chiquita’ สมาชิกคนที่ 3 ของวง
+								BABY MONSTER</h1>
+							<span>วันศุกร์ 20 มกราคม 2566</span>
+							<p class="card_text">BABY MONSTER เกิร์ลกรุ๊ปน้องใหม่จากค่าย YG Entertainment
+								ที่กำลังได้รับความสนใจจากหลายฝ่ายอย่างล้นหลาม เพราะนี่คือวงเกิร์ลกรุ๊ปวงใหม่ของ YG ในรอบ
+								6 ปี หลังการเดบิวต์ของ BLACKPINK ซึ่งตั้งแต่มีการปล่อยคลิปเปิดตัวแง้มโฉมหน้า 7
+								สมาชิกของวง YG ก็ได้มีการทยอยปล่อยคลิปเปิดตัวสมาชิกออกมาทีละคน
+								จนในที่สุดก็ถึงคิวสาวน้อยจากประเทศไทย ‘ชิกิต้า’ (Chiquita) หรือ ‘แคนนี่’ วัย 13 ปี ...
+							</p>
+							<a
+								href="https://www.korseries.com/yg-launches-a-13-year-old-girl-from-thailand-chiquita-the-third-member-of-baby-monster/"><button
+									class="btn card_btn">อ่านต่อเพิ่มเติม</button></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Group 2 Form body tags-->
+	<section id="form">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-4 pb-5">
+
+					<div class="author-card pb-3">
+						<div class="author-card-cover" style="background-image: url(img/bg-pf.jpeg);">
+						</div>
+						<div class="author-card-profile">
+							<div class="author-card-avatar">
+								<div class="picture-container">
+									<div class="picture">
+										<img src="img/meow.jpeg" class="picture-src" id="wizardPicturePreview" title="">
+										<input type="file" id="wizard-picture" class="">
+									</div>
+								</div>
+							</div>
+							<div class="author-card-details">
+								<h5 class="author-card-name text-lg">Cat Lover</h5><span
+									class="author-card-position">Joined January
+									24, 2023</span>
+							</div>
+						</div>
+					</div>
+					<div class="wizard">
+						<nav class="list-group list-group-flush">
+							<a class="list-group-item active" href="#"><i class="fe-icon-user text-muted"></i>Profile
+								Settings</a>
+						</nav>
+					</div>
+				</div>
+
+				<div class="col-lg-8 pb-5">
+					<form>
+						<div class="row">
+							<div class="col-sm-2">
+								<div class="form-group">
+									<b><label for="account-title">Title</label></b>
+									<select required class="form-control" id="account-title">
+										<option value="Mr.">Mr.</option>
+										<option value="Ms.">Ms.</option>
+										<option value="Mrs.">Mrs.</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="form-group">
+									<b><label for="account-fn">First Name</label></b>
+									<input class="form-control" type="text" id="account-fn" value="Cat" required="">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="form-group">
+									<b><label for="account-ln">Last Name</label></b>
+									<input class="form-control" type="text" id="account-ln" value="Lover" required="">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<b><label for="account-gender">Gender</label></b>
+									<select required class="form-control" id="account-gender">
+										<option value="Male">Male</option>
+										<option value="Female">Female</option>
+										<option value="Non-Binary">Non-Binary</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<b><label for="account-birthday">Birthday</label></b>
+									<input class="form-control" type="date" id="account-birthday" value="2001-01-01"
+										required="">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<b><label for="account-email">E-mail Address</label></b>
+									<input class="form-control" type="email" id="account-email"
+										value="abcd@dome.tu.ac.th" disabled="">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<b><label for="account-phone">Phone Number</label></b>
+									<input class="form-control" type="text" id="account-phone" value="0123456789"
+										required="">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-20">
+							<div class="form-group">
+								<b><label for="account-address">Address</label></b>
+								<textarea class="form-control" id="account-address" rows="5"
+									cols="30">99 Phahonyothin Road, Tambon Khlong Nung, Amphoe Khlong Luang, Chang Wat Pathum Thani 12120</textarea>
+							</div>
+						</div>
+						<div class="col-15">
+							<hr class="mt-2 mb-3">
+							<div class="d-flex flex-wrap justify-content-center align-items-center">
+								<button class="btn" type="button" data-toast="" data-toast-position="topRight"
+									data-toast-type="success" data-toast-icon="fe-icon-check-circle"
+									data-toast-title="Save!"
+									data-toast-message="Your profile saved successfuly.">Save</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("dropd2");
+			var y = document.getElementById("dropdown_ico");
+			if (x.className === "dropdown-content") {
+				x.className += " responsive";
+				y.className = " fa fa-times";
+			} else {
+				x.className = "dropdown-content";
+				y.className = " fa fa-bars";
+			}
+		}
+	</script>
+</body>
+
+</html>
